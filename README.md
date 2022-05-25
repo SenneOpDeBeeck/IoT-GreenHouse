@@ -1,6 +1,9 @@
 # IoT-GreenHouse
 IoT GreenHouse
 
+![image](https://user-images.githubusercontent.com/100275526/170331411-17dd8027-8da9-4aaa-ac04-cb6da7a69829.png)
+
+
 --- Inleiding ---
 
 We hebben een zeer grote serre die onderverdeeld is in meerdere kweekbakken met verschillende soorten kruiden. Omdat de kweekbakken geregeld van kruid veranderen wil de eigenaar graag een modulair systeem om deze te automatiseren en monitoren.
@@ -15,4 +18,3 @@ Om te voorkomen dat de kweker zijn kweekbakken opnieuw moet programmeren bij elk
 
 
 
-![image](https://user-images.githubusercontent.com/100275526/170331305-647bc62b-0e1d-4867-91a1-9a6d7c003290.png)
