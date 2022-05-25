@@ -21,4 +21,18 @@ worden weergegeven met grafana.
 Om te voorkomen dat de kweker zijn kweekbakken opnieuw moet programmeren bij elke kruidwisseling zal hij door middel van een RFID tag de bak automatisch kunnen instellen op de gewenste kruiden. Deze instellingen kunnen worden weergegeven op een LCD scherm.
 
 
+Procedure
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WEEK 1
+
+Toen we de uitleg kregen van wat de eindopdracht inhoud ben ik meteen begonnen met nadenken en opzoeken van hoe ik dit project het beste zou kunnen realiseren. Thuis ben ik er dan ook direct ingevlogen. Eerst heb ik opgeschreven welke componenten dat ik allemaal nodig zou hebben en heb ik een kleine schets gemaakt van hoe ik ongeveer wou dat het er zou uitzien. 
+Ik heb niet veel langer zitten treuzelen en heb mijn eerste componenten besteld zoals mijn bloempotten, waterpomp en warmte mat. Deze kwamen een kleine week later aan. Dan ben ik begonnen met programmeren van de verschillende sensoren die ik moest gebruiken. Zo heb ik al de nodige componenten aan de praat gekregen. Dit ging het later allemaal veel makkelijker maken om ze uiteindelijk in mijn eindprogramma te zetten. Zo ben ik aan het einde van deze week rustig kunnen beginnen aan het maken van mijn eindprogramma. ![image](https://user-images.githubusercontent.com/100275526/170356357-856b8fe1-6f5e-4b42-b18d-e174c75eb2d0.png)
+
+
+
+
+
+
+
+
 
