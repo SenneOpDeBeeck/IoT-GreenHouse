@@ -11,4 +11,8 @@ Elke kweekbak zal dus sensoren nodig hebben die de grondvochtigheid en temperatu
 De data van deze sensoren en de bijhorende acties worden opgeslagen in een database en kunnen 
 worden weergegeven met grafana. 
 
-Om te voorkomen dat de kweker zijn kweekbakken opnieuw moet programmeren bij elke kruidwisseling zal hij door middel van een RFID tag de bak automatisch kunnen instellen op de gewenste kruiden. Deze instellingen kunnen worden weergegeven op een LCD scherm
+Om te voorkomen dat de kweker zijn kweekbakken opnieuw moet programmeren bij elke kruidwisseling zal hij door middel van een RFID tag de bak automatisch kunnen instellen op de gewenste kruiden. Deze instellingen kunnen worden weergegeven op een LCD scherm.
+
+
+
+![image](https://user-images.githubusercontent.com/100275526/170331305-647bc62b-0e1d-4867-91a1-9a6d7c003290.png)
