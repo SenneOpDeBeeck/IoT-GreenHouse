@@ -1,5 +1,9 @@
 # IoT-GreenHouse
-IoT GreenHouse
+
+|------------------------------|
+|  Iot Project (YX0470 | 2022) |
+|     By Senne Op de Beeck     |
+|------------------------------|
 
 ![image](https://user-images.githubusercontent.com/100275526/170331411-17dd8027-8da9-4aaa-ac04-cb6da7a69829.png)
 
