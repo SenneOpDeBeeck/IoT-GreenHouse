@@ -5,7 +5,7 @@ IoT Project (YX0470 | 2022)
 By Senne Op de Beeck
 
 
-![image](https://user-images.githubusercontent.com/100275526/170331411-17dd8027-8da9-4aaa-ac04-cb6da7a69829.png)
+![image](https://user-images.githubusercontent.com/100275526/171277205-1b145003-5639-4eae-8c50-a66960d09802.png)
 
 
 --- Inleiding ---
