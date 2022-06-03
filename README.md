@@ -29,6 +29,46 @@ Toen we de uitleg kregen van wat de eindopdracht inhoud ben ik meteen begonnen m
 Ik heb niet veel langer zitten treuzelen en heb mijn eerste componenten besteld zoals mijn bloempotten, waterpomp en warmte mat. Deze kwamen een kleine week later aan. Dan ben ik begonnen met programmeren van de verschillende sensoren die ik moest gebruiken. Zo heb ik al de nodige componenten aan de praat gekregen. Dit ging het later allemaal veel makkelijker maken om ze uiteindelijk in mijn eindprogramma te zetten. Zo ben ik aan het einde van deze week rustig kunnen beginnen aan het maken van mijn eindprogramma. ![image](https://user-images.githubusercontent.com/100275526/170356357-856b8fe1-6f5e-4b42-b18d-e174c75eb2d0.png)
 
 
+WEEK 2
+
+Week 2 ben ik verdergegaan met maken van mijn eindprogramma. Dit was de opdracht die we moesten maken tegen het begin van week 3, een klein prototype programma. Na wat puzzelen en de juiste stukken code in mijn programma te zetten had ik al een klein werkend project. Zo kon ik al de waardes van mijn sensoren uitlezen en zo ook mijn lcd en Rfid reader laten functioneren.
+Tussendoor ben ik dan ook al wat beginnen werken aan mijn documentatie en heb ik verschillende tussentittels geplaatst van onderwerpen waar ik wat uitleg over zou gaan geven. De laatste componenten zoals een paar sensoren, transfo ’s, prototype plaatjes, enz. heb ik dan ook besteld zodat ik al men materiaal had.
+In bakje waar het prototype plaatje en de transfo’s inkomen heb ik gaten gemaakt waar ik later al de bekabeling door kan steken, 3 gaatjes voor leds in de steken en dus ook een gat waar de 230V voeding binnen komt. Ik moest ook nog wat extra spullen halen zoals een bodemplaat, statief voor de led strip, … die ben ik dan snel gaan halen in de gamma. 
+Ik dacht dat het ook wel leuk zou zijn om mijn Rfid reader en lcd scherm in een case te steken die dat met een 3D printer is gemaakt. Dus heb ik een paar ontwerpen doorgestuurd naar de leerkracht en heeft hij mij hier goed mee geholpen.
+
+
+WEEK 3
+
+Week 3 ben ik verdergegaan met het maken van de plank. Zo heb ik de kabelgoten geplaatst zodat de draadjes van de sensoren ordelijk bij de prototypeplaatjes kunnen komen en het er ook mooier uit komt te zien. Zo kwam al direct bij een probleem hoe ik een connectie kon maken met de RFID reader. Ik dacht eerst gewoon de draadjes te solderen aan de pinnen maar dat ging moeilijker dan gedacht. Dus heb ik gebruik gemaakt van stukken female header pinnen en zo de 2 draadjes aan elkaar heb gesoldeerd. Zo kom ik er voordeligger uit want nu kan ik de header pinnen van de RFID reader af halen en deze opnieuw gebruiken. 
+Dit hetzelfde voor het lcd scherm. Ook ben ik het prototype bordje beginnen solderen en heb ik de verschillende relais, esp32 header pinnen en weerstanden al gesoldeerd. 
+De volgende dag heb ik al de bedrading van de sensoren richting de prototypeplaatjes gelegd. Jammer genoeg moest ik door wat vertraging nog wachten op men led strip en heb ik de verschillende voedingspanning al gesoldeerd die konden. De laatste dag van deze week kreeg ik uiteindelijk men led strip aan en heb ik deze gesoldeerd aan een stuk draad dat richting de prototypeplaatjes gaat en zo zijn al de componenten geplaatst. 
+
+
+WEEK 4
+
+De nieuwe week startte ik met het solderen van al de signaaldraden aan de headerpinnen van de esp32. Aan de voorkant van het pcb bakje heb ik 3 gaten gemaakt waar ik leds heb in gestoken zo wanneer oftewel de pomp aangaat er een rood lampje gaat branden, als de warmte mat aangaat er een geel lampje gaat branden en als de ramen geopend worden er een groen lampje zal branden. Zo is heel mijn prototype bordje gesoldeerd en klaar om te testen. Toen ik de stekker in het stopcontact stak zag ik meteen dat het lcd schermpje niet brandde. Meteen ben ik begonnen met uitmeten en vond ik redelijk snel de fout, zo was de 5V verbinding die ik had gesoldeerd niet goed samengesmolten en gaf het niet door. Dit probleem heb ik makkelijk kunnen oplossen door even mijn soldeerbout tegen het soldeersel te houden zodat het in mekaar smelt.
+
+De opdracht die deze week moest afzijn was de MQTT connectie maken. Dit was niet zo een heel moeilijke taak vond ik zelf. Zo moest ik alleen een publish sturen van de esp32 naar de raspberry pi, die stuurt de waardes door naar de influx data base die ik heb ingesteld en zo via de influx data base wordt de data doorgestuurd naar grafana. Op grafana heb ik 4 verschillende dashboards gemaakt met elk de specifieke waarde van een sensor.
+
+
+WEEK 5
+
+Week 5 heb ik mijn plank zo goed als afgemaakt door alle componenten te plaatsen op de bodemplaat en het praktische gedeelte voorlopig klaar was. Daarna ben ik eens wat beginnen testen met het prototype plaatje en kwam ik al snel op een volgend probleem. Zo gaf de grond temperatuur sensor heel te tijd aan dat de temperatuur te laag was en zo de warmte mat aangestuurd werd. Dit terwijl hij wel gewoon de juiste waarde stuurde. Zo zag ik in mijn programma een stomme fout waarbij ik de verkeerde memory had ingegeven. 
+
+
+WEEK 6
+
+De voorlaatste week ben ik de laatste probleempjes aan het proberen op te lossen. Als de Pomp en de micro servo motor aangingen(soms apart ook) “crasht” de esp en komen er verschillende rare tekens op het LCD scherm. Zelf denk ik dat het komt doordat ze te veel stroom trekken. Daarom heb ik besloten de micro servo motor uit men project te halen. In dit proces heb ik per ongeluk men transfo een beetje los getrokken waardoor dat ineens men lcd en grondtemperatuur sensor het niet meer doen. Dit kom omdat er een piekstroom is ontstaan en zo de 5V apparaten overbelast heeft. Hier heb ik dus een nieuwe lcd en sensor voor moeten gaan halen. Nadat ik deze aangesloten had en mijn project terug spanning gaf werkte men project terug helemaal. Zo kon ik de dag erna men project werkend gaan voorstellen aan al mijn medeleerlingen en docent.
+
+Hieronder zie je nog een mooi dashboard met verschillende grafieken van al de waardes die ik binnenkreeg in men database en zo naar grafana gestuurd werden.
+
+
+WEEK 7
+
+De paar dagen na de presentatie heb ik besteed aan het afwerken van mijn documentatie. Zo heb ik ook een hoofdstuk aangemaakt op mijn GitHub pagina met allerlei info over dit project. Naast dit heb ik ook een youtube video gemaakt met wat uitleg over mijn project.
+
+Link youtube video: https://youtu.be/OGu_YNZe474
+
 
 
 
