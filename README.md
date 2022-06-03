@@ -79,6 +79,91 @@ De paar dagen na de presentatie heb ik besteed aan het afwerken van mijn documen
 Link youtube video: https://youtu.be/OGu_YNZe474
 
 
+AANSLUITINGEN
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RFID - Reader
+
+Component pin	| Kleur draad	| Aansluiting
+3.3V	BLAUW	          3.3V ESP
+GND	  BLAUW / WIT	    GND ESP
+SDA  	ORANJE	        D5
+SCK	  ORANJE / WIT	  D18
+MOSI	GROEN	          D23
+MISO	GROEN / WIT	    D19
+
+
+
+LCD - Scherm
+
+Component pin	Kleur draad	Aansluiting
+5V	BRUIN	5V ESP
+GND	BRUIN / WIT	GND ESP
+SDA	ORANJE	D21
+SCL	ORANJE / WIT	D22
+
+
+
+Moisture sensor
+
+Component pin	Kleur draad	Aansluiting
+3.3V	BLAUW	3.3V ESP
+GND	BLAUW / WIT	GND ESP
+SIGNAL	ORANJE	D35
+
+
+
+DHT22
+
+Component pin	Kleur draad	Aansluiting
+3.3V	BLAUW	3.3V ESP
+GND	BLAUW / WIT	GND ESP
+SIGNAL	ORANJE	D33
+
+
+
+DS18B20 Grond sensor
+
+Component pin	Kleur draad	Aansluiting
+5V	BRUIN	5V ESP
+GND	BRUIN / WIT	GND ESP
+SIGNAL	ORANJE	D4
+
+
+
+Waterpomp
+
+Component pin	Kleur draad	Aansluiting
+3,3V	BRUIN	3,3V ESP
+GND	BRUIN / WIT	GND ESP
+RELAIS	>>	D14
+
+
+
+Led Strip
+
+Component pin	Kleur draad	Aansluiting
+12V		12V Transfo
+GND		GND Transfo
+RELAIS	>>	D12
+
+
+
+Warmtemat
+
+Component pin	Kleur draad	Aansluiting
+230V	(BRUIN)	230V Transfo
+GND	(BLAUW)	GND Transfo
+RELAIS	>>	D13
+
+
+
+Leds
+
+Component pin	Aansluiting	Toepassing
+ROOD	D27	(POMP)
+GEEL	D26	(WARMTEMAT)
+GROEN	D32	(RAMEN)
 
 
 
