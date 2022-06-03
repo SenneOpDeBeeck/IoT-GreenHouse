@@ -36,6 +36,8 @@ Tussendoor ben ik dan ook al wat beginnen werken aan mijn documentatie en heb ik
 In bakje waar het prototype plaatje en de transfo’s inkomen heb ik gaten gemaakt waar ik later al de bekabeling door kan steken, 3 gaatjes voor leds in de steken en dus ook een gat waar de 230V voeding binnen komt. Ik moest ook nog wat extra spullen halen zoals een bodemplaat, statief voor de led strip, … die ben ik dan snel gaan halen in de gamma. 
 Ik dacht dat het ook wel leuk zou zijn om mijn Rfid reader en lcd scherm in een case te steken die dat met een 3D printer is gemaakt. Dus heb ik een paar ontwerpen doorgestuurd naar de leerkracht en heeft hij mij hier goed mee geholpen.
 
+![image](https://user-images.githubusercontent.com/100275526/171844006-f3ad1be3-768d-4340-9787-576edbba359c.png)
+
 
 WEEK 3
 
@@ -43,12 +45,18 @@ Week 3 ben ik verdergegaan met het maken van de plank. Zo heb ik de kabelgoten g
 Dit hetzelfde voor het lcd scherm. Ook ben ik het prototype bordje beginnen solderen en heb ik de verschillende relais, esp32 header pinnen en weerstanden al gesoldeerd. 
 De volgende dag heb ik al de bedrading van de sensoren richting de prototypeplaatjes gelegd. Jammer genoeg moest ik door wat vertraging nog wachten op men led strip en heb ik de verschillende voedingspanning al gesoldeerd die konden. De laatste dag van deze week kreeg ik uiteindelijk men led strip aan en heb ik deze gesoldeerd aan een stuk draad dat richting de prototypeplaatjes gaat en zo zijn al de componenten geplaatst. 
 
+![image](https://user-images.githubusercontent.com/100275526/171844046-e7a1d191-1748-4a8d-842e-ecb6da7db3da.png)
+![image](https://user-images.githubusercontent.com/100275526/171844056-13899954-08f4-4521-95e2-1985fe1e6f00.png)
+
+
 
 WEEK 4
 
 De nieuwe week startte ik met het solderen van al de signaaldraden aan de headerpinnen van de esp32. Aan de voorkant van het pcb bakje heb ik 3 gaten gemaakt waar ik leds heb in gestoken zo wanneer oftewel de pomp aangaat er een rood lampje gaat branden, als de warmte mat aangaat er een geel lampje gaat branden en als de ramen geopend worden er een groen lampje zal branden. Zo is heel mijn prototype bordje gesoldeerd en klaar om te testen. Toen ik de stekker in het stopcontact stak zag ik meteen dat het lcd schermpje niet brandde. Meteen ben ik begonnen met uitmeten en vond ik redelijk snel de fout, zo was de 5V verbinding die ik had gesoldeerd niet goed samengesmolten en gaf het niet door. Dit probleem heb ik makkelijk kunnen oplossen door even mijn soldeerbout tegen het soldeersel te houden zodat het in mekaar smelt.
 
 De opdracht die deze week moest afzijn was de MQTT connectie maken. Dit was niet zo een heel moeilijke taak vond ik zelf. Zo moest ik alleen een publish sturen van de esp32 naar de raspberry pi, die stuurt de waardes door naar de influx data base die ik heb ingesteld en zo via de influx data base wordt de data doorgestuurd naar grafana. Op grafana heb ik 4 verschillende dashboards gemaakt met elk de specifieke waarde van een sensor.
+
+![image](https://user-images.githubusercontent.com/100275526/171844083-981cd1b9-fb2c-4e03-9482-ffcc521be2d0.png)
 
 
 WEEK 5
@@ -61,6 +69,7 @@ WEEK 6
 De voorlaatste week ben ik de laatste probleempjes aan het proberen op te lossen. Als de Pomp en de micro servo motor aangingen(soms apart ook) “crasht” de esp en komen er verschillende rare tekens op het LCD scherm. Zelf denk ik dat het komt doordat ze te veel stroom trekken. Daarom heb ik besloten de micro servo motor uit men project te halen. In dit proces heb ik per ongeluk men transfo een beetje los getrokken waardoor dat ineens men lcd en grondtemperatuur sensor het niet meer doen. Dit kom omdat er een piekstroom is ontstaan en zo de 5V apparaten overbelast heeft. Hier heb ik dus een nieuwe lcd en sensor voor moeten gaan halen. Nadat ik deze aangesloten had en mijn project terug spanning gaf werkte men project terug helemaal. Zo kon ik de dag erna men project werkend gaan voorstellen aan al mijn medeleerlingen en docent.
 
 Hieronder zie je nog een mooi dashboard met verschillende grafieken van al de waardes die ik binnenkreeg in men database en zo naar grafana gestuurd werden.
+![image](https://user-images.githubusercontent.com/100275526/171844117-7222ab80-b68c-4428-b68e-81425a950e9f.png)
 
 
 WEEK 7
