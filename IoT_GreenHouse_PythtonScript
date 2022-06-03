@@ -1,0 +1,66 @@
+import time
+import re
+from typing import NamedTuple
+import paho.mqtt.client as mqtt
+import paho.mqtt.publish as publish
+from influxdb import InfluxDBClient
+
+INFLUXDB_ADDRESS = 'YourOwnIP'
+INFLUXDB_USER = 'YourOwnUSERNAME'
+INFLUXDB_PASSWORD = 'YourOwnPASSWORD'
+INFLUXDB_DATABASE = 'YourOwnDATABASENAME'
+MQTT_ADDRESS = 'YourOwnIP'
+MQTT_USER = 'YourOwnUSERNAME'
+MQTT_PASSWORD ='YourOwnPASSWORD'
+MQTT_TOPIC = 'GreenHouse/ESP32/+'
+MQTT_REGEX = 'GreenHouse/([^/]+)/([^/]+)'
+MQTT_CLIENT_ID = 'MQTTInfluxDBBridge'
+influxdb_client = InfluxDBClient(INFLUXDB_ADDRESS, 8086, INFLUXDB_USER,
+INFLUXDB_PASSWORD, None)
+
+client = mqtt.Client()
+
+def on_connect(client, userdata, flags, rc):
+        print ("Connected with result code " + str(rc))
+
+        client.subscribe([("GreenHouse/ESP32/#", 1)])
+
+def on_message(client, userdata, message):
+        print (" ")
+        print ("---------- Message received ---------- ")
+        print (" ")
+
+        if message.topic == 'GreenHouse/ESP32/temperatureGround':
+                print ("Place: " + message.topic)
+                print ("Temperature is: " + str(message.payload) + "°C")
+                print (" ")
+
+        if message.topic == 'GreenHouse/ESP32/moistureGround':
+                print ("Place: " + message.topic)
+                print ("Moisture value is: " + str(message.payload) + "%")
+                print (" ")
+
+        if message.topic == 'GreenHouse/ESP32/temperatureSurrounding':
+                print ("Place: " + message.topic)
+                print ("Temperature is: " + str(message.payload) + "°C")
+                print (" ")
+
+        if message.topic == 'GreenHouse/ESP32/humiditySurrounding':
+                print ("Place: " + message.topic)
+                print ("Humidity value is: " + str(message.payload) + "%")
+                print (" ")
+
+                print ("<><><><><><><><><><><><><><><><><><><><><><><><>")
+
+user = 'senne'
+password = 'senne123'
+broker_address = 'localhost'
+port = 1883
+
+client.username_pw_set(user, password=password)
+client.on_connect = on_connect
+client.on_message = on_message
+client.connect(broker_address, port=port)
+
+client.loop_forever()
+
