@@ -84,7 +84,7 @@ AANSLUITINGEN
 
 RFID - Reader
 
-Component pin	| Kleur draad	| Aansluiting
+Component pin	Kleur draad Aansluiting
 3.3V	BLAUW	          3.3V ESP
 GND	  BLAUW / WIT	    GND ESP
 SDA  	ORANJE	        D5
@@ -165,6 +165,11 @@ ROOD	D27	(POMP)
 GEEL	D26	(WARMTEMAT)
 GROEN	D32	(RAMEN)
 
+
+EAGLE SCHEMA
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![image](https://user-images.githubusercontent.com/100275526/171844861-3fc9603b-8e19-4767-9dbd-a685b8b82cb1.png)
 
 
 
